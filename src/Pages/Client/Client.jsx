@@ -29,7 +29,11 @@ const handleCidadeInputChange = (event) =>{
 const handleSubmit = (event) => {
   event.preventDefault();
   setSubmitted(true);
-  console.log(values);
+  const submitArray = [];
+  submitArray.map((value) => {
+    submitArray.push(values)
+  })
+  console.log(submitArray.data);
 }
 
   return (
