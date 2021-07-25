@@ -1,0 +1,40 @@
+main{
+  width:90%;
+  height:90%;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+width: 80%;
+margin: 0 auto;
+}
+
+h1{
+  padding-top: 3rem;
+  text-align: center;
+}
+
+h5{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.btnDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  padding: 2rem;
+  margin: 2rem auto;
+}
+
+.btn{
+  padding: 1rem 2rem;
+  min-width: 200px;
+  color: black;
+  margin: 1rem;
+  text-align: center;
+  border: none;
+  background: pink;
+  border-radius:20px;
+}

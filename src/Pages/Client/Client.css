@@ -1,0 +1,61 @@
+main{
+  width:90%;
+  height:90%;
+}
+
+.container{
+width: 80%;
+margin: 0 auto;
+}
+
+h1{
+  padding-top: 3rem;
+  text-align: center;
+}
+
+h5{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.formContainer{
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem auto;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input{
+  padding: 1rem 2rem;
+  width: 350px;
+  color: black;
+  margin: 0.5rem 2rem;
+  border: none;
+  background: pink;
+  border-radius:20px;
+}
+.submit{
+  padding: 1rem 2rem;
+  color: black;
+  margin: 0.5rem 2rem;
+  border: none;
+  background: cyan;
+  border-radius:20px;
+}
+
+.control{
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
